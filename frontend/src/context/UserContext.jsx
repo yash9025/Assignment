@@ -3,7 +3,7 @@ import { createContext } from "react";
 const currentUser = {
   name: "Alex Developer",
   role: "Admin",
-  plan: "Pro"
+  plan: "Free"
 };
 
 const UserContext = createContext(currentUser);
